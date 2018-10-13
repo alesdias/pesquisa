@@ -1,0 +1,54 @@
+<h5>PRODUTOS</h5><hr/>
+
+<div class="input-field col s12">
+	<input id="produto.nome" type="text" class="validate" ng-model="q">
+	<label for="produto.nome"><i class="material-icons">search</i>Procurar</label>
+</div>
+
+<!-- tabela de produtos -->
+<div class="row" id="listaProdutos">
+	<ul class="collapsible" data-collapsible="accordion">
+	<li  ng-repeat="produto in produtos | filter:q as results">
+		<div class="collapsible-header"><i class="material-icons">add</i>{{produto.nome}}<span class="badge" data-badge-caption="produtos">{{produto.pesquisas.length}}</span></div>
+		<div class="collapsible-body"><p>
+			<b>Produto :</b> {{produto.nome}}<br>
+			<b>Código de barras :</b> {{produto.barra}}<br>
+			<b>Volume :</b> {{produto.embalagem.volume}} {{produto.embalagem.tipo.nome}}<br>
+			<hr>
+			<table class="bordered highlight">
+			<thead>
+				<tr>
+					<td>Loja</td>
+					<td>Data</td>
+					<td>Preço por {{produto.embalagem.tipo.comparacao}}{{produto.embalagem.tipo.sigla}}</td>
+					<td>Preço Unidade</td>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr ng-repeat="item in produto.pesquisas | orderBy:item.data">
+					<td>{{item.loja.nome}}</td>
+					<td>{{dataFormat(item.data,'dd/mm/yyyy')}}</td>
+					<!--<td>{{item.valor.formatReal(2,3)}} {{item.qtdComprado}} {{produto.embalagem.qtd}}</td>-->
+					<td>{{calcularValor(item.valor, item.qtdComprado, produto.embalagem).formatReal(2,3)}}</td>
+					<td>{{calcularValorUnidade(item.valor, item.qtdComprado, produto.embalagem).formatReal(2,3)}}</td>
+				</tr>
+			</tbody>
+			</table>
+			</p>
+		</div>
+	</li>
+	</ul>
+</div>
+
+<!-- Modal de Confirmação ao apagar -->
+<div id="ProdutosDel_Modal" class="modal">
+	<div class="modal-content">
+		<h4>Apagar Produto</h4>
+		Tem certeza que deseja apagar este produto da sua relação?'
+	</div>
+	<div class="modal-footer" id="acaoDeletarProduto">
+		<a href="#!" class="modal-action modal-close waves-effect btn-flat ">Não</a>
+		<a href="#!" onclick="delProduto();" class="waves-effect btn blue">Sim</a>
+	</div>
+</div>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="appreco">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>APPreço</title>
+	<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>-->
+	<link href="iconfont/material-icons.css" rel="stylesheet"/>
+	<link type="text/css" rel="stylesheet" href="css/app.css" />
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	
+	<script type="text/javascript" src="js/core/jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="js/core/materialize.min.js"></script>
+	<script type="text/javascript" src="js/core/angular.min.js"></script>
+	<script type="text/javascript" src="js/core/angular-cookies.min.js"></script>
+	<script type="text/javascript" src="js/core/angular-resource.min.js"></script>
+	<script type="text/javascript" src="js/core/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/core/angular-animate.min.js"></script>
+	
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/database.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	
+	<script type="text/javascript" src="js/SERVICES/dataFormat.js"></script>
+	<script type="text/javascript" src="js/SERVICES/utils.js"></script>
+	<script type="text/javascript" src="js/SERVICES/formatData.js"></script>
+	<script type="text/javascript" src="js/SERVICES/produtoService.js"></script>
+	<script type="text/javascript" src="js/SERVICES/pesquisaService.js"></script>
+	<script type="text/javascript" src="js/SERVICES/lojaService.js"></script>
+	<script type="text/javascript" src="js/SERVICES/cameraService.js"></script>
+	<script type="text/javascript" src="js/SERVICES/listaService.js"></script>
+	<script type="text/javascript" src="js/SERVICES/arquivoService.js"></script>
+	
+	<script type="text/javascript" src="js/CONTROLLER/geralController.js"></script>
+	<script type="text/javascript" src="js/CONTROLLER/notaFiscalController.js"></script>
+	
+</head>
+<body>
+
+	<nav id="MenuPrincipal"> 
+		<div class="nav-wrapper #0d47a1 blue darken-4 menu">
+			<a href="#!" class="brand-logo" style="padding-left:10px;">.:: APPreço ::.</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="#!" onclick="mostrarConteudo('conteudo-home');">Inicio</a></li>
+				<li><a href="#!" onclick="mostrarConteudo('conteudo-lojas');">Lojas</a></li>
+				<li><a href="#!" onclick="mostrarConteudo('conte´udo-produtos');">Produtos</a></li>
+				<li><a href="#!" onclick="mostrarConteudo('conteudo-pesquisas');">Pesquisas</a></li>
+				<li><a href="#!" onclick="mostrarConteudo('conteudo-nota');">Nota Fiscal</a></li>
+				<li><a href="#!" onclick="mostrarConteudo('conteudo-config');">Configurações</a></li>
+			</ul>
+			<ul class="side-nav #1976d2 blue darken-2" id="mobile-demo">
+				<div class="row #1e88e5 blue darken-1">
+					Usuario : Alexandre
+				</div>
+				<li><a class="white-text" href="#!" onclick="mostrarConteudo('conteudo-home');"><i class="material-icons left">home</i>Inicio</a></li>
+				<li><a class="white-text" href="#!" onclick="mostrarConteudo('conteudo-lojas');"><i class="material-icons left">store</i>Lojas</a></li>
+				<!--li><a class="white-text" href="#!" onclick="mostrarConteudo('conteudo-listas');"><i class="material-icons left">store</i>Lista de Compras</a></li-->
+				<li><a class="white-text" href="#!" onclick="mostrarConteudo('conteudo-produtos');"><i class="material-icons left">redeem</i>Produtos</a></li>
+				<li><a class="white-text" href="#!" onclick="mostrarConteudo('conteudo-pesquisas');"><i class="material-icons left">shopping_cart</i>Pesquisas</a></li>
+				<li><a class="white-text" href="#!" onclick="mostrarConteudo('conteudo-nota');"><i class="material-icons left">add</i>Nota Fiscal</a></li>
+				<li><a class="white-text" href="#!" onclick="mostrarConteudo('conteudo-config');"><i class="material-icons left">settings</i>Configurações</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<div ng-controller="geralCtrl"  ng-init="inicio()">
+
+		<div id="conteudo-home" class="conteudo" accesskey="">
+			<home/>
+		</div>
+
+		<div id="conteudo-lojas" class="conteudo esconde"> 
+			<lojas/>
+		</div>
+
+		<div id="conteudo-produtos" class="conteudo esconde"> 
+			<h5>PRODUTOS</h5><hr/>
+
+			<div class="input-field col s12">
+				<input id="produto.nome" type="text" class="validate" ng-model="q">
+				<label for="produto.nome"><i class="material-icons">search</i>Procurar</label>
+			</div>
+
+			<!-- tabela de produtos -->
+			<div class="row" id="listaProdutos">
+				<ul class="collapsible" data-collapsible="accordion">
+				<li  ng-repeat="produto in produtos | filter:q as results">
+					<div class="collapsible-header"><i class="material-icons">add</i>{{produto.nome}}<span class="badge" data-badge-caption="produtos">{{produto.pesquisas.length}}</span></div>
+					<div class="collapsible-body"><p>
+						<b>Produto :</b> {{produto.nome}}<br>
+						<b>Código de barras :</b> {{produto.barra}}<br>
+						<b>Volume :</b> {{produto.embalagem.volume}} {{produto.embalagem.tipo.nome}}<br>
+						<hr>
+						<table class="bordered highlight">
+						<thead>
+							<tr>
+								<td>Loja</td>
+								<td>Data</td>
+								<td>Preço por {{produto.embalagem.tipo.comparacao}}{{produto.embalagem.tipo.sigla}}</td>
+								<td>Preço Unidade</td>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr ng-repeat="item in produto.pesquisas | orderBy:item.data">
+								<td>{{item.loja.nome}}</td>
+								<td>{{dataFormat(item.data,'dd/mm/yyyy')}}</td>
+								<!--<td>{{item.valor.formatReal(2,3)}} {{item.qtdComprado}} {{produto.embalagem.qtd}}</td>-->
+								<td>{{calcularValor(item.valor, item.qtdComprado, produto.embalagem).formatReal(2,3)}}</td>
+								<td>{{calcularValorUnidade(item.valor, item.qtdComprado, produto.embalagem).formatReal(2,3)}}</td>
+							</tr>
+						</tbody>
+						</table>
+						</p>
+					</div>
+				</li>
+				</ul>
+			</div>
+
+			<!-- Modal de Confirmação ao apagar -->
+			<div id="ProdutosDel_Modal" class="modal">
+				<div class="modal-content">
+					<h4>Apagar Produto</h4>
+					Tem certeza que deseja apagar este produto da sua relação?'
+				</div>
+				<div class="modal-footer" id="acaoDeletarProduto">
+					<a href="#!" class="modal-action modal-close waves-effect btn-flat ">Não</a>
+					<a href="#!" onclick="delProduto();" class="waves-effect btn blue">Sim</a>
+				</div>
+			</div>
+		</div>		
+
+		<div id="conteudo-pesquisas" class="conteudo esconde">
+
+			<div id="escolhe_loja" ng-show="escolhe_loja">
+				<div class="row card-panel hoverable">
+					<div class="col s2">
+						<a href="#!" class="btn-floating btn-small disabled"><i class="material-icons">close</i></a>
+					</div>
+					<div class="col s10">
+						<form action='#' >
+						<p ng-repeat="loja in lojas">
+							<input class='with-gap' name='group1' type='radio' id="{{loja.id}}"/>
+							<label ng-click="defineLoja(loja)" for="{{loja.id}}">"{{loja.nome}}"</label>
+						</p>
+					</form>
+					</div>
+				</div>
+
+				<ul class="collapsible" data-collapsible="accordion">
+					<li>
+					<div class="collapsible-header"><i class="material-icons">add</i>Pesquisas Efetuadas<span class="badge" data-badge-caption="produtos">{{pesquisas.length}}</span></div>
+					<div class="collapsible-body">
+						<table class="bordered" id="produtoHeader">
+							<thead>
+							<tr>
+								<th data-field="id" class="textoPequeno">Loja</th>
+								<th data-field="price" class="textoPequeno">Data</th>
+								<th data-field="price" class="textoPequeno">Itens</th>
+								<th data-field="price" class="textoPequeno">Total</th>
+								<th data-field="id" style="width: 5%;"></th>
+							</tr>
+							</thead>
+							<tbody id="Pesquisas">
+
+							<tr ng-repeat="pesquisa in pesquisas">
+								<td class="textoPequeno">{{pesquisa.nome}}</td>
+								<td class="textoPequeno">{{dataFormat(pesquisa.dt_pesquisa,'dd/mm/yyyy')}}</td>
+								<td class="textoPequeno">{{pesquisa.itens}}</td>
+								<td class="right textoPequeno">{{pesquisa.totalPago.formatReal(2,3)}}</td>
+								<td class="textoPequeno"> <a href='#!' ng-click="detalhePesquisa(pesquisa.id, pesquisa.nome, pesquisa.dt_pesquisa)"><i class='material-icons'>add</i></a></td>
+							</tr>							
+							</tbody>
+						</table>
+					</div>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="loja_escolhida" ng-show="loja_escolhida"> 
+				<div class="row card-panel hoverable">
+					<div class="col s2">
+						<a href="#!" ng-click="desfazEscolha(1)" class="btn-floating btn-small blue"><i class="material-icons">close</i></a>
+					</div>
+					<div class="col s10">
+						<b>Loja :</b> {{loja.nome}} <br>
+						Valor das Compras : <b>{{compras.totalCompra.formatReal(2,3)}}</b><br>
+						<!--Data: <b>{{dataFormat(compras.dt_pesquisa,'dd/mm/yyyy')}}</b><br/>-->
+					</div>
+				</div>
+
+				<ul class="collapsible" data-collapsible="accordion">
+					<li>
+					<div class="collapsible-header"><i class="material-icons">add circle</i>Produtos<span class="badge" data-badge-caption="produtos">{{compras.itens.length}}</span></div>
+					<div class="collapsible-body">
+						<table class="bordered" id="produtoHeader">
+							<thead>
+							<tr>
+								<th data-field="id" class="textoPequeno">Nome</th>
+								<th data-field="price" class="textoPequeno">Valor</th>
+								<th data-field="price" class="textoPequeno">Item</th>
+								<th data-field="id" style="width: 5%;"></th>
+							</tr>
+							</thead>
+							<tbody id="Produtos">
+
+							<tr ng-repeat="produto in compras.itens">
+								<td class="textoPequeno">{{produto.nome}}</td>
+								<td class="textoPequeno">{{produto.preco.formatReal(2,3)}}</td>
+								<td class="textoPequeno">{{produto.qtd_comprado}}</td>
+								<td class="textoPequeno"> <a href='#!' ng-click="delPesquisaItem(produto.id_pesquisa)"><i class='material-icons'>delete</i></a></td>
+							</tr>							
+							</tbody>
+						</table>
+					</div>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="escolhe_produto" class="row" ng-show="escolhe_produto">
+
+				<div id="digitaProduto" ng-show="produtoNaoEncontrado">
+					<div class="input-field col s12">	
+						<input id="produto_codigo_barras" value="" type="text" ng_model="produto.barra">
+						<label for="produto_codigo_barras">Codigo de Barras </label> 
+					</div>
+					<div class="input-field col s12">
+						<input id="produto.nome" type="text" class="validate" ng-model="produto.nome" ng-focus=>
+						<label for="produto.nome">Nome do Produto</label>
+					</div>
+					<div class="input-field col s4">
+						<input id="produto_volume2" type="number" class="validade" ng-model="produto.embalagem.volume">
+						<label for="produto_volume2">Volume</label>
+					</div>
+					<div class="input-field col s8">
+						<select id="produto_id_volume2" ng-model="produto.embalagem.tipo.id">
+							<option value="" disabled selected>Escolha</option>
+							<option value="1">Kg - Kilo</option>
+							<option value="2">gr - Gramas</option>
+							<option value="3">Lt - Litro</option>
+							<option value="4">ml - Mililitro</option>
+							<option value="5">Dúzia</option>
+							<option value="6">Unidade</option>
+						</select>
+						<label>Unidade de Volume</label>
+					</div>
+					<div class="input-field col s12">
+						<input id="produto_qtd_embalagem" type="number" value="1" class="validate" ng-model="produto.embalagem.qtd">
+						<label for="produto_qtd_embalagem">Qtd da embalagem</label>	
+					</div>
+					<div class="input-field col s6">
+						<input id="produto_preco" type="number" value="1" class="validate" ng-model="produto.preco">
+						<label for="produto_preco">Valor</label>	
+					</div>
+					<div class="input-field col s6">
+						<input id="produto_qtd_compra" type="number" value="1" class="validate" ng-model="produto.qtd_comprado">
+						<label for="produto_qtd_compra">Qtd Comprado</label>	
+					</div>
+
+				</div>
+				
+				<div id="digitaPreco" 	ng-show="produtoEncontrado">
+					
+					<div class="input-field col s12">
+						Produto : {{produto.nome}} <br/>
+						Volume : {{produto.embalagem.volume}} {{produto.embalagem.tipo.sigla}} <br/>
+						Embalagem com <b>{{produto.embalagem.qtd}}</b> unidades<br/>
+						<table class="bordered" id="pesquisaHeader">
+						<thead>
+						<tr>
+							<th data-field="id" class="textoPequeno"> - </th>
+							<th data-field="price" class="textoPequeno">Valor</th>
+							<th data-field="data" class="textoPequeno">Data</th>
+						</tr>
+						</thead>
+						<tbody id="Produtos">
+
+						<tr ng-repeat="item in produto.pesquisas.resumo">
+							<td accesskey=""class="textoPequeno">{{item.classe}}</td>
+							<td class="textoPequeno">{{item.pesquisa.valor.formatReal(2,3)}}</td>
+							<td class="textoPequeno">{{item.pesquisa.data}}</td>
+						</tr>							
+						</tbody>
+						</table>
+						
+					</div>
+					<div class="input-field col s12">
+						<input id="produto_qtd_embalagem" type="number" value="1" class="validate" ng-model="produto.embalagem.qtd">
+						<label for="produto_qtd_embalagem">Qtd da embalagem</label>	
+					</div>		
+
+					<div class="input-field col s6">
+						<input id="produto_preco" type="number" value="1" class="validate" ng-model="produto.preco">
+						<label for="produto_preco">Valor</label>	
+					</div>
+					<div class="input-field col s6">
+						<input id="produto_qtd_compra" type="number" value="1" class="validate" ng-model="produto.qtd_comprado">
+						<label for="produto_qtd_compra">Qtd Comprado</label>	
+					</div>
+				</div>
+				
+				<div class="input-field col s6">
+					<a href="#!" class="btn blue center" ng-click="setPesquisas()">salvar</a>
+				</div>
+
+				<div class="input-field col s6">
+					<a href="#!" class="btn blue center" ng-show="produtoEncontrado" ng-click="cancelPesquisas()">cancelar</a>
+				</div>
+				
+				<div class="input-field col s12" style="height: 60px;">	
+ 					
+				</div>
+			 	
+				<div class="fixed-action-btn horizontal click-to-toggle">
+					<a class="btn-floating btn-large blue waves-effect waves-light">
+					  <i class="large material-icons">publish</i>
+					</a>
+					<ul>
+						<li><a class="btn-floating red waves-effect waves-light"   ng-click="buscaProduto(produto.codigo_barras)"><i class="material-icons">search</i></a></li>
+					  	<li><a class="btn-floating green waves-effect waves-light" ng-click="cameraClick()"><i class="material-icons">camera</i></a></li>
+					</ul>
+			  	</div>
+
+			</div>
+
+			<!-- Obsoleto -->
+			<div id="mostra_produto" ng-show="produto_escolhido"> 
+				<div class="row">
+					<div class="col s2">
+						<a href="#!" ng-click="desfazEscolha(1)" class="btn-floating btn-small blue"><i class="material-icons">close</i></a>
+					</div>
+					<div class="col s10">
+						<b>Produto :</b> {{produto.nome}} 
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal de Confirmação ao apagar -->
+			<div id="DetalheProdutos_Modal" class="modal modal-fixed-footer">
+				<div class="container input-field col s12">
+					<input id="produto.nome" type="text" class="validate" ng-model="qProduto">
+					<label for="produto.nome"><i class="material-icons">search</i>Procurar</label>
+				</div>
+
+				<!-- Lista com produtos -->
+				<div class="modal-content">
+					<ul class="collapsible" data-collapsible="accordion">
+					<li  ng-repeat="produto in produtos | filter:qProduto as results">
+						<div class="collapsible-header"><i class="material-icons">add</i>{{produto.nome}}<span class="badge" data-badge-caption="produtos">{{produto.pesquisas.length}}</span></div>
+						<div class="collapsible-body"><p>
+							<table>
+							<tr>
+								<td>
+									<b>Produto :</b> {{produto.nome}}<br>
+									<b>Código de barras :</b> {{produto.barra}}<br>
+									<b>Volume :</b> {{produto.embalagem.volume}} {{produto.embalagem.tipo.nome}}<br>
+								</td>
+								<td>
+										<a class="btn-floating btn-large waves-effect waves-light red" ng-click="escolheProduto(produto);"><i class="material-icons">add</i></a>
+								</td>
+							</tr>
+							</table>
+							<hr>
+							<table class="bordered highlight">
+							<thead>
+								<tr>
+									<td>Loja</td>
+									<td>Data</td>
+									<td>Preço por {{produto.embalagem.tipo.comparacao}}{{produto.embalagem.tipo.sigla}}</td>
+									<td>Preço Unidade</td>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr ng-repeat="item in produto.pesquisas | orderBy:item.data">
+									<td>{{item.loja.nome}}</td>
+									<td>{{dataFormat(item.data,'dd/mm/yyyy')}}</td>
+									<!--<td>{{item.valor.formatReal(2,3)}} {{item.qtdComprado}} {{produto.embalagem.qtd}}</td>-->
+									<td>{{calcularValor(item.valor, item.qtdComprado, produto.embalagem).formatReal(2,3)}}</td>
+									<td>{{calcularValorUnidade(item.valor, item.qtdComprado, produto.embalagem).formatReal(2,3)}}</td>
+								</tr>
+							</tbody>
+							</table>
+							</p>
+						</div>
+					</li>
+					</ul>
+				</div>
+				<div class="modal-footer" id="acaoDeletarProduto">
+					<a href="#!" class="modal-action modal-close waves-effect btn-flat ">Fechar</a>
+				</div>
+			</div>
+
+			<div id="digita_valor" ng-show="digita_valor"> digita o valor</div>
+
+		</div>
+
+		<div id="conteudo-config" class="conteudo esconde"> 
+			<h5>CONFIGURAÇÕES</h5><hr/>
+
+			<form>
+			<div class="row">
+				<a href="#!" class="btn" ng-click="GerarArquivo()">Gerar Arquivo</a>
+			</div>
+			<div class="row">
+				<a href="#!" class="btn" ng-click="EnviaEmail()">Enviar Arquivo</a>
+			</div>
+			</form>
+
+			<table class="bordered">
+			<tbody>
+			<tr>
+				<td>Registrar Log ?</td>
+				<td>
+					<div class="switch" ng-click="configLog()">
+					<label>
+					Não
+					<input type="checkbox" id="log"  ng-model="log" {{log}}>
+					<span class="lever"></span>
+					Sim
+					</label>
+				</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Camera Fake ?</td>
+				<td>
+					<div class="switch" ng-click="configAmbiente()">
+					<label>
+					Não
+					<input type="checkbox" id="log"  ng-model="ambienteDev" {{ambienteDev}}>
+					<span class="lever"></span>
+					Sim
+					</label>
+				</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Release</td>
+				<td>
+					{{release}}
+				</td>
+			</tr>
+			</tbody>
+			</table>
+
+
+			<table class="bordered">
+			<tbody>
+			<tr ng-repeat="x in sincronismo.sincs">
+				<td>{{x.nome}}</td>
+				<td>{{x.itens.length}}</td>
+				<td><a href="#!" ng-click="sincronizar(x.nome, x.itens)"><i class="material-icons">cloud</i></a></td>
+			</tr>
+			<tr>
+				<td colspan="3">
+				<div class="progress">
+					<div class="determinate blue" style="width: {{progresso}}%"></div>
+				</div>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+
+			{{arquivo.length}}
+			<table class="bordered">
+			<tbody>
+			<tr ng-repeat="x in arquivo">
+				<td>{{x.nome}}</td>
+			</tr>
+			</tbody>
+			</table>
+
+			<table class="bordered">
+			<tbody>
+			<tr ng-repeat="x in logs">
+				<td>{{x.texto}}</td>
+			</tr>
+			</tbody>
+			</table>
+
+		</div>
+
+		<div id="conteudo-listas" class="conteudo esconde">
+			
+			<div class="row formAdiciona">
+				<div class="input-field col s8">
+					<input id="lista.add" type="text" class="validate">
+					<label for="lista.add"></label>
+				</div>
+
+				<div class="col s4">
+					 <a href="#!" class="btn waves-effect">Enviar</a>
+				</div>
+			</div>
+			
+			<ul class="collapsible" data-collapsible="accordion">
+				<li>
+					<div class="collapsible-header"><i class="material-icons">del</i>First</div>
+					<div class="collapsible-body">
+						<ul class="collection">
+							<li class="collection-item">Alvin</li>
+							<li class="collection-item">Alvin</li>
+							<li class="collection-item">Alvin</li>
+						</ul>
+					</div>
+				</li>
+				</ul>
+        		
+
+		</div>
+
+	</div>
+
+	<div ng-controller="notasCntr">
+		
+		<div id="conteudo-nota" class="conteudo esconde">
+		<h5>NOTAS FISCAIS</h5><hr/>
+
+		<div class="row" id="listaNotas">
+			
+			<div class="fixed-action-btn">
+				<a  href="#!" ng-click="qrCodeClick()"  class="btn-floating btn-large blue">
+				  <i class="large material-icons">add</i>
+				</a>
+	
+			  </div>
+        
+			
+			<ul class="collapsible" data-collapsible="accordion">
+			<li  ng-repeat="nota in notas | filter:q as results">
+				<div class="collapsible-header"><i class="material-icons">add</i>{{nota.dt_compra}}<span class="badge" data-badge-caption="produtos">{{nota.vl_compra.formatReal(2,3)}}</span></div>
+				<div class="collapsible-body"><p>
+					<b>Chave :</b> {{nota.tx_chave}}<br>
+					<b>Data de Compra :</b> {{nota.dt_compra}}<br>
+					<b>Valor da Compra :</b> {{nota.vl_compra.formatReal(2,3)}}<br>
+					<b>CPF Contribuinte :</b> {{nota.cpf}}<br>
+					<hr>
+					<div style="padding: 5px;">
+						<a  href="#!" ng-click="deletaNota(nota.id)" class="waves-effect waves-light btn-flat">
+							Excluir
+						</a>
+					</div>
+				</div>
+			</li>
+			</ul>
+		</div>
+
+	</div>
+	
+	</div>
+
+	<script src="js/start.js"></script>
+
+</body>
+</html>

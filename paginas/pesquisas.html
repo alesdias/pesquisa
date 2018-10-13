@@ -1,0 +1,217 @@
+<div id="escolhe_loja" ng-show="escolhe_loja">
+	<div class="row card-panel hoverable">
+		<div class="col s2">
+			<a href="#!" class="btn-floating btn-small disabled"><i class="material-icons">close</i></a>
+		</div>
+		<div class="col s10">
+			<form action='#' >
+			<p ng-repeat="loja in lojas">
+				<input class='with-gap' name='group1' type='radio' id="{{loja.id}}"/>
+				<label ng-click="defineLoja(loja)" for="{{loja.id}}">"{{loja.nome}}"</label>
+			</p>
+		</form>
+		</div>
+	</div>
+
+	<ul class="collapsible" data-collapsible="accordion">
+		<li>
+		<div class="collapsible-header"><i class="material-icons">add</i>Pesquisas Efetuadas<span class="badge" data-badge-caption="produtos">{{pesquisas.length}}</span></div>
+		<div class="collapsible-body">
+			<table class="bordered" id="produtoHeader">
+				<thead>
+				<tr>
+					<th data-field="id">Loja</th>
+					<th data-field="price">Data</th>
+					<th data-field="price">Itens</th>
+					<th data-field="price">Total</th>
+					<th data-field="id" style="width: 5%;"></th>
+				</tr>
+				</thead>
+				<tbody id="Pesquisas">
+
+				<tr ng-repeat="pesquisa in pesquisas">
+					<td>{{pesquisa.nome}}</td>
+					<td>{{dataFormat(pesquisa.dt_pesquisa,'dd/mm/yyyy')}}</td>
+					<td>{{pesquisa.itens}}</td>
+					<td class="right">{{pesquisa.totalPago.formatReal(2,3)}}</td>
+					<td> <a href='#!' ng-click="detalhePesquisa(pesquisa.id, pesquisa.nome, pesquisa.dt_pesquisa)"><i class='material-icons'>add</i></a></td>
+				</tr>							
+				</tbody>
+			</table>
+		</div>
+		</li>
+	</ul>
+
+</div>
+
+<div id="loja_escolhida" ng-show="loja_escolhida"> 
+	<div class="row card-panel hoverable">
+		<div class="col s2">
+			<a href="#!" ng-click="desfazEscolha(1)" class="btn-floating btn-small blue"><i class="material-icons">close</i></a>
+		</div>
+		<div class="col s10">
+			<b>Loja :</b> {{loja.nome}} <br>
+			Valor das Compras : <b>{{compras.totalCompra.formatReal(2,3)}}</b><br>
+
+		</div>
+	</div>
+
+	<ul class="collapsible" data-collapsible="accordion">
+		<li>
+		<div class="collapsible-header"><i class="material-icons">add circle</i>Produtos<span class="badge" data-badge-caption="produtos">{{compras.itens.length}}</span></div>
+		<div class="collapsible-body">
+			<table class="bordered" id="produtoHeader">
+				<thead>
+				<tr>
+					<th data-field="id">Nome</th>
+					<th data-field="price">Valor</th>
+					<th data-field="price">Quantidade</th>
+					<th data-field="id" style="width: 5%;"></th>
+				</tr>
+				</thead>
+				<tbody id="Produtos">
+
+				<tr ng-repeat="produto in compras.itens">
+					<td>{{produto.nome}}</td>
+					<td>{{produto.preco.formatReal(2,3)}}</td>
+					<td>{{produto.qtd_comprado}}</td>
+					<td> <a href='#!' ng-click="delPesquisaItem(produto.id_pesquisa)"><i class='material-icons'>delete</i></a></td>
+				</tr>							
+				</tbody>
+			</table>
+		</div>
+		</li>
+	</ul>
+
+</div>
+
+<div id="escolhe_produto" class="card-panel hoverable row" ng-show="escolhe_produto">
+
+	<div class="input-field col s10">	
+		<input id="produto_codigo_barras" value="" type="text" ng_model="produto.codigo_barras">
+		<label for="produto_codigo_barras">Codigo de Barras </label> 
+	</div>
+	<div class="col s2">
+		<a ng-click="cameraClick()" class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons prefix left">camera</i></a>
+	</div>
+
+	<div class="input-field col s10">
+		<input id="produto.nome" type="text" class="validate" ng-model="produto.nome" ng-focus=>
+		<label for="produto.nome">Nome do Produto</label>
+	</div>
+	<div class="col s2">
+		<a ng-click="buscaProduto(produto.codigo_barras)" class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons prefix left">search</i></a>
+	</div>
+
+	<div class="input-field col s4">
+		<input id="produto_volume2" type="number" class="validade" ng-model="produto.volume">
+		<label for="produto_volume2">Volume</label>
+	</div>
+	<div class="input-field col s8">
+		<select id="produto_id_volume2" ng-model="produto.id_volume">
+			<option value="" disabled selected>Escolha</option>
+			<option value="1">Kg - Kilo</option>
+			<option value="2">gr - Gramas</option>
+			<option value="3">Lt - Litro</option>
+			<option value="4">ml - Mililitro</option>
+			<option value="5">Dúzia</option>
+			<option value="6">Unidade</option>
+		</select>
+		<label>Unidade de Volume</label>
+	</div>
+
+
+	<div class="input-field col s8">
+		<input id="produto_qtd_embalagem" type="number" value="1" class="validate" ng-model="produto.qtd_embalagem">
+		<label for="produto_qtd_embalagem">Qtd da embalagem</label>	
+	</div>
+
+	<div class="input-field col s4">
+			<input id="produto_qtd_compra" type="number" value="1" class="validate" ng-model="produto.qtd_comprado">
+			<label for="produto_qtd_compra">Qtd Comprado</label>	
+	</div>
+
+
+	<div class="input-field col s8">
+
+	</div>
+	<div class="input-field col s5">
+		<input id="produto_preco" type="number" value="1" class="validate" ng-model="produto.preco">
+		<label for="produto_preco">Valor</label>	
+	</div>
+
+	<div class="input-field col s12">
+		<a href="#!" class="btn blue right" ng-click="setPesquisas()">salvar</a>
+	</div>	
+
+</div>
+
+<!-- Obsoleto -->
+<div id="mostra_produto" ng-show="produto_escolhido"> 
+	<div class="row">
+		<div class="col s2">
+			<a href="#!" ng-click="desfazEscolha(1)" class="btn-floating btn-small blue"><i class="material-icons">close</i></a>
+		</div>
+		<div class="col s10">
+			<b>Produto :</b> {{produto.nome}} 
+		</div>
+	</div>
+</div>
+
+<!-- Modal de Confirmação ao apagar -->
+<div id="DetalheProdutos_Modal" class="modal modal-fixed-footer">
+	<div class="container input-field col s12">
+		<input id="produto.nome" type="text" class="validate" ng-model="qProduto">
+		<label for="produto.nome"><i class="material-icons">search</i>Procurar</label>
+	</div>
+
+	<!-- Lista com produtos -->
+	<div class="modal-content">
+		<ul class="collapsible" data-collapsible="accordion">
+		<li  ng-repeat="produto in produtos | filter:qProduto as results">
+			<div class="collapsible-header"><i class="material-icons">add</i>{{produto.nome}}<span class="badge" data-badge-caption="produtos">{{produto.pesquisas.length}}</span></div>
+			<div class="collapsible-body"><p>
+				<table>
+				<tr>
+					<td>
+						<b>Produto :</b> {{produto.nome}}<br>
+						<b>Código de barras :</b> {{produto.barra}}<br>
+						<b>Volume :</b> {{produto.embalagem.volume}} {{produto.embalagem.tipo.nome}}<br>
+					</td>
+					<td>
+							<a class="btn-floating btn-large waves-effect waves-light red" ng-click="escolheProduto(produto);"><i class="material-icons">add</i></a>
+					</td>
+				</tr>
+				</table>
+				<hr>
+				<table class="bordered highlight">
+				<thead>
+					<tr>
+						<td>Loja</td>
+						<td>Data</td>
+						<td>Preço por {{produto.embalagem.tipo.comparacao}}{{produto.embalagem.tipo.sigla}}</td>
+						<td>Preço Unidade</td>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr ng-repeat="item in produto.pesquisas | orderBy:item.data">
+						<td>{{item.loja.nome}}</td>
+						<td>{{dataFormat(item.data,'dd/mm/yyyy')}}</td>
+						<!--<td>{{item.valor.formatReal(2,3)}} {{item.qtdComprado}} {{produto.embalagem.qtd}}</td>-->
+						<td>{{calcularValor(item.valor, item.qtdComprado, produto.embalagem).formatReal(2,3)}}</td>
+						<td>{{calcularValorUnidade(item.valor, item.qtdComprado, produto.embalagem).formatReal(2,3)}}</td>
+					</tr>
+				</tbody>
+				</table>
+				</p>
+			</div>
+		</li>
+		</ul>
+	</div>
+	<div class="modal-footer" id="acaoDeletarProduto">
+		<a href="#!" class="modal-action modal-close waves-effect btn-flat ">Fechar</a>
+	</div>
+</div>
+
+<div id="digita_valor" ng-show="digita_valor"> digita o valor</div>

@@ -1,0 +1,41 @@
+<h5>LOJAS</h5><hr/>
+
+<div class="row">
+	<form class="col s12">
+	<div class="row">
+		<div class="input-field col s7">
+			<input id="loja_nome" type="text" ng-model="loja.nome" class="validate">
+			<label for="loja_nome">Nome da Loja</label>
+		</div>
+		<div class="input-field col s4">
+			<a href="#!" ng-click="setLojas(loja.nome);" class="btn">adicionar</a>
+		</div>
+	</div>
+</form>
+</div>
+
+<table class="bordered" id="lojasHeader">
+	<thead>
+	<tr>
+		<th data-field="id">Nome</th>
+		<th data-field="id" style="width: 5%;"></th>
+	</tr>
+	</thead>
+	<tbody id="Lojas" ng-repeat="x in lojas">
+		<td>{{x.nome}}</td>
+		<td><a href='#!' ng-click="delLojas(x.id);"><i class='material-icons'>delete</i></a></td>
+	</tbody>
+</table>
+
+<!-- INICIO - Modal DeletarLoja -->
+<div id="LojaDel_Modal" class="modal">
+	<div class="modal-content">
+	<h4>Apagar Loja</h4>
+	Tem certeza que deseja apagar esta Loja da sua relação?'
+	</div>
+	<div class="modal-footer" id="acaoDeletarLoja">
+		<a href="#!" class="modal-action modal-close waves-effect btn-flat ">Não</a>
+		<a href="#!" ng-click="delLoja();" class="waves-effect btn blue">Sim</a>
+	</div>
+</div>
+<!-- FINAL - Modal DeletarLoja -->

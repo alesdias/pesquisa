@@ -1,0 +1,99 @@
+* {
+	padding: 0px;
+	margin: 0px;
+
+	font-family	: Verdana;
+	font-size	: 12en;
+	/*
+	-webkit-user-select: none;
+	 -khtml-user-select: none; 
+	
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+	*/
+}
+
+body{
+    padding: 0pt;
+	/*background-color: #ebf4f3;*/
+}
+
+.formAdiciona{
+	/*background-color: #40596f;*/
+}
+
+.textoPequeno{
+	font-size: 8pt;
+}
+
+.login{
+    width: 90%;
+    padding: 10px;
+    align-items: center;
+}
+
+.qd100{
+	width: 150px;
+	height: 150px;
+	border: 1px solid rgba(42, 180, 245,0.2);
+}
+
+.flex{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.conteudo{
+    padding-left:   10px;
+    padding-right:  10px;
+    padding-top:    10px;
+}
+
+.titulo{
+    width: 90%;
+    padding-left: 0px;
+    
+}
+
+.esp-normal{
+    width: 90%;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu{
+    position: fixed;
+    /*z-index: 10;*/
+
+}
+
+.esconde{
+    display: none;
+}
+
+.mostra{
+    display: show;
+}
+
+.azul{
+	background-color: #449eed;
+}
+.amarelo{
+	background-color: rgb(216, 206, 92);
+}
+.verde{
+	background-color: rgba(48, 242, 167, 0.65);
+}
+
+.barra{
+	background-color: rgba(217, 217, 217, 0.71);
+	border 	: 1px solid #b7c2cc;
+	width	: 100%;
+	height	: 20px;
+}
+
+.progresso{
+	border	: 0px;  
+	width	: 10%;
+	height: 18px;
+}

@@ -1,0 +1,4902 @@
+[
+	{
+		"id": 56,
+		"ic": "I",
+		"barra": "203210004459",
+		"nome": "Abobrinha",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 1120,
+			"qtd": 1
+		},
+		"valor": "4.45",
+		"pesquisas": [
+			{
+				"id": 56,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 4.45,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:449"
+			}
+		],
+		"$$hashKey": "object:38"
+	},
+	{
+		"id": 40,
+		"ic": "I",
+		"barra": "7896007544059",
+		"nome": "Absorvente - Intimus Gel",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 32,
+			"qtd": 1
+		},
+		"valor": "8.17",
+		"pesquisas": [
+			{
+				"id": 40,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 8.17,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:451"
+			}
+		],
+		"$$hashKey": "object:39"
+	},
+	{
+		"id": 126,
+		"ic": "I",
+		"barra": "7891737257590",
+		"nome": "Achocolatado - Backes Chefs",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 2,
+			"qtd": 1
+		},
+		"valor": "12.97",
+		"pesquisas": [
+			{
+				"id": 126,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 12.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:453"
+			}
+		],
+		"$$hashKey": "object:40"
+	},
+	{
+		"id": 63,
+		"ic": "I",
+		"barra": "400006551757",
+		"nome": "Achocolatado BC",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 2,
+			"qtd": 1
+		},
+		"valor": "12.97",
+		"pesquisas": [
+			{
+				"id": 63,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 12.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:455"
+			}
+		],
+		"$$hashKey": "object:41"
+	},
+	{
+		"id": 11,
+		"ic": "I",
+		"barra": "7506339332650",
+		"nome": "Amaciante - Downy",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1.5,
+			"qtd": 1
+		},
+		"valor": "14.97",
+		"pesquisas": [
+			{
+				"id": 11,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 14.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:457"
+			}
+		],
+		"$$hashKey": "object:42"
+	},
+	{
+		"id": 146,
+		"ic": "I",
+		"barra": "7896098905401",
+		"nome": "Amaciante Líquido - Ype",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 5,
+			"qtd": 1
+		},
+		"valor": "12.98",
+		"pesquisas": [
+			{
+				"id": 146,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 12.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:459"
+			}
+		],
+		"$$hashKey": "object:43"
+	},
+	{
+		"id": 140,
+		"ic": "I",
+		"barra": "7896273808244",
+		"nome": "Areia de Gato - Pipicar",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 12,
+			"qtd": 1
+		},
+		"valor": "25.98",
+		"pesquisas": [
+			{
+				"id": 140,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 25.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:461"
+			}
+		],
+		"$$hashKey": "object:44"
+	},
+	{
+		"id": 41,
+		"ic": "I",
+		"barra": "400003335800",
+		"nome": "Areia de Gato Pipicat",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 12,
+			"qtd": 1
+		},
+		"valor": "27.51",
+		"pesquisas": [
+			{
+				"id": 41,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 27.51,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:463"
+			}
+		],
+		"$$hashKey": "object:45"
+	},
+	{
+		"id": 71,
+		"ic": "I",
+		"barra": "400008294232",
+		"nome": "Arroz Parborizado - Camil",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 5,
+			"qtd": 1
+		},
+		"valor": "12.98",
+		"pesquisas": [
+			{
+				"id": 71,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 12.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:465"
+			}
+		],
+		"$$hashKey": "object:46"
+	},
+	{
+		"id": 70,
+		"ic": "I",
+		"barra": "400008444439",
+		"nome": "Açúcar - Caravelas",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 10
+		},
+		"valor": "24.5",
+		"pesquisas": [
+			{
+				"id": 70,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 24.5,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:467"
+			}
+		],
+		"$$hashKey": "object:47"
+	},
+	{
+		"id": 105,
+		"ic": "I",
+		"barra": "7898206500027",
+		"nome": "Açúcar Demerara - Native",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "4.49",
+		"pesquisas": [
+			{
+				"id": 105,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 0,
+				"valor": 4.49,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:469"
+			},
+			{
+				"id": 155,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 4.69,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:470"
+			}
+		],
+		"$$hashKey": "object:48"
+	},
+	{
+		"id": 106,
+		"ic": "I",
+		"barra": "7891910020065",
+		"nome": "Açúcar Demerara - União",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "3.89",
+		"pesquisas": [
+			{
+				"id": 106,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 3.89,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:473"
+			}
+		],
+		"$$hashKey": "object:49"
+	},
+	{
+		"id": 64,
+		"ic": "I",
+		"barra": "7891910000203",
+		"nome": "Açúcar União",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 10
+		},
+		"valor": "26.5",
+		"pesquisas": [
+			{
+				"id": 64,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 0,
+				"valor": 26.5,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:475"
+			}
+		],
+		"$$hashKey": "object:50"
+	},
+	{
+		"id": 113,
+		"ic": "I",
+		"barra": "7897011000012",
+		"nome": "Bananinha",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 30,
+			"qtd": 24
+		},
+		"valor": "20.98",
+		"pesquisas": [
+			{
+				"id": 113,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 20.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:477"
+			},
+			{
+				"id": 165,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 20.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:478"
+			}
+		],
+		"$$hashKey": "object:51"
+	},
+	{
+		"id": 53,
+		"ic": "I",
+		"barra": "7797906001356",
+		"nome": "Batata Frita - McCain",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 2,
+			"qtd": 1
+		},
+		"valor": "13.15",
+		"pesquisas": [
+			{
+				"id": 53,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 13.15,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:481"
+			}
+		],
+		"$$hashKey": "object:52"
+	},
+	{
+		"id": 57,
+		"ic": "I",
+		"barra": "200336003168",
+		"nome": "Batata doce Roxa",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 740,
+			"qtd": 1
+		},
+		"valor": "3.16",
+		"pesquisas": [
+			{
+				"id": 57,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 3.16,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:483"
+			}
+		],
+		"$$hashKey": "object:53"
+	},
+	{
+		"id": 25,
+		"ic": "I",
+		"barra": "7622300870201",
+		"nome": "Biscoito - Belvita",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 270,
+			"qtd": 1
+		},
+		"valor": "7.48",
+		"pesquisas": [
+			{
+				"id": 25,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 7.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:485"
+			},
+			{
+				"id": 162,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 7.38,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:486"
+			}
+		],
+		"$$hashKey": "object:54"
+	},
+	{
+		"id": 87,
+		"ic": "I",
+		"barra": "7892840241445",
+		"nome": "Biscoito - Equilibri",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 50,
+			"qtd": 1
+		},
+		"valor": "2.29",
+		"pesquisas": [
+			{
+				"id": 87,
+				"ic": "I",
+				"data": 20160914,
+				"qtdComprado": 4,
+				"valor": 2.29,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:489"
+			}
+		],
+		"$$hashKey": "object:55"
+	},
+	{
+		"id": 73,
+		"ic": "I",
+		"barra": "8001100064598",
+		"nome": "Biscoito - Feccine",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 700,
+			"qtd": 1
+		},
+		"valor": "14.98",
+		"pesquisas": [
+			{
+				"id": 73,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 14.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:491"
+			}
+		],
+		"$$hashKey": "object:56"
+	},
+	{
+		"id": 26,
+		"ic": "I",
+		"barra": "7891962045160",
+		"nome": "Biscoito Cereale Cacau - Bauduco",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 170,
+			"qtd": 3
+		},
+		"valor": "6.84",
+		"pesquisas": [
+			{
+				"id": 26,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 6.84,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:493"
+			},
+			{
+				"id": 132,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 6.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:494"
+			}
+		],
+		"$$hashKey": "object:57"
+	},
+	{
+		"id": 75,
+		"ic": "I",
+		"barra": "7896003702934",
+		"nome": "Biscoito Maisena - Marilan",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 400,
+			"qtd": 1
+		},
+		"valor": "2.67",
+		"pesquisas": [
+			{
+				"id": 75,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 2.67,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:497"
+			},
+			{
+				"id": 110,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 3,
+				"valor": 2.88,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:498"
+			}
+		],
+		"$$hashKey": "object:58"
+	},
+	{
+		"id": 27,
+		"ic": "I",
+		"barra": "7896003703078",
+		"nome": "Biscoito Maizena - Marilan",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 400,
+			"qtd": 1
+		},
+		"valor": "2.67",
+		"pesquisas": [
+			{
+				"id": 27,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 2,
+				"valor": 2.67,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:501"
+			}
+		],
+		"$$hashKey": "object:59"
+	},
+	{
+		"id": 74,
+		"ic": "I",
+		"barra": "7896003703665",
+		"nome": "Biscoito Rosquinha - Marilan",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 800,
+			"qtd": 1
+		},
+		"valor": "6.48",
+		"pesquisas": [
+			{
+				"id": 74,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 6.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:503"
+			},
+			{
+				"id": 161,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 6.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:504"
+			},
+			{
+				"id": 131,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 6.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:505"
+			}
+		],
+		"$$hashKey": "object:60"
+	},
+	{
+		"id": 110,
+		"ic": "I",
+		"barra": "7896003702934",
+		"nome": "Biscoito de Maizena",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 400,
+			"qtd": 1
+		},
+		"valor": "2.88",
+		"pesquisas": [
+			{
+				"id": 110,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 3,
+				"valor": 2.88,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:509"
+			}
+		],
+		"$$hashKey": "object:61"
+	},
+	{
+		"id": 33,
+		"ic": "I",
+		"barra": "7896071024518",
+		"nome": "Biscoito de chocolate - Mabel",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 300,
+			"qtd": 1
+		},
+		"valor": "4.39",
+		"pesquisas": [
+			{
+				"id": 33,
+				"ic": "I",
+				"data": 20160805,
+				"qtdComprado": 1,
+				"valor": 4.39,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:511"
+			}
+		],
+		"$$hashKey": "object:62"
+	},
+	{
+		"id": 83,
+		"ic": "I",
+		"barra": "7896066302003",
+		"nome": "Bisnaguinha - Wickbold",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 300,
+			"qtd": 1
+		},
+		"valor": "3.78",
+		"pesquisas": [
+			{
+				"id": 83,
+				"ic": "I",
+				"data": 20160902,
+				"qtdComprado": 1,
+				"valor": 3.78,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:513"
+			}
+		],
+		"$$hashKey": "object:63"
+	},
+	{
+		"id": 132,
+		"ic": "I",
+		"barra": "7891962045160",
+		"nome": "Bolacha - Bauduco",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 170,
+			"qtd": 3
+		},
+		"valor": "6.48",
+		"pesquisas": [
+			{
+				"id": 132,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 6.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:515"
+			}
+		],
+		"$$hashKey": "object:64"
+	},
+	{
+		"id": 86,
+		"ic": "I",
+		"barra": "7891000089798",
+		"nome": "Bolacha - Nesfit",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 200,
+			"qtd": 1
+		},
+		"valor": "3.59",
+		"pesquisas": [
+			{
+				"id": 86,
+				"ic": "I",
+				"data": 20160914,
+				"qtdComprado": 1,
+				"valor": 3.59,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:517"
+			}
+		],
+		"$$hashKey": "object:65"
+	},
+	{
+		"id": 109,
+		"ic": "I",
+		"barra": "7622300992293",
+		"nome": "Bolacha - clube Social",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 140,
+			"qtd": 3
+		},
+		"valor": "7.38",
+		"pesquisas": [
+			{
+				"id": 109,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 7.38,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:519"
+			}
+		],
+		"$$hashKey": "object:66"
+	},
+	{
+		"id": 164,
+		"ic": "I",
+		"barra": "7702025134403",
+		"nome": "Bolacha Integral - Dux",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 864,
+			"qtd": 1
+		},
+		"valor": "14.98",
+		"pesquisas": [
+			{
+				"id": 164,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 14.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:521"
+			}
+		],
+		"$$hashKey": "object:67"
+	},
+	{
+		"id": 76,
+		"ic": "I",
+		"barra": "7891962044835",
+		"nome": "Bolacha Wafer - Bauduco",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 140,
+			"qtd": 3
+		},
+		"valor": "4.88",
+		"pesquisas": [
+			{
+				"id": 76,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 4.88,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:523"
+			},
+			{
+				"id": 108,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 4.88,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:524"
+			},
+			{
+				"id": 163,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 4.58,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:525"
+			}
+		],
+		"$$hashKey": "object:68"
+	},
+	{
+		"id": 162,
+		"ic": "I",
+		"barra": "7622300870201",
+		"nome": "Bolacha de Mel e Cacau - Belvita",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 30,
+			"qtd": 9
+		},
+		"valor": "7.38",
+		"pesquisas": [
+			{
+				"id": 162,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 7.38,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:529"
+			}
+		],
+		"$$hashKey": "object:69"
+	},
+	{
+		"id": 77,
+		"ic": "I",
+		"barra": "7896024721600",
+		"nome": "Bolacha Água e Gergelim - Piraque",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 200,
+			"qtd": 4
+		},
+		"valor": "9.79",
+		"pesquisas": [
+			{
+				"id": 77,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 9.79,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:531"
+			}
+		],
+		"$$hashKey": "object:70"
+	},
+	{
+		"id": 28,
+		"ic": "I",
+		"barra": "7891962030593",
+		"nome": "Bolinho Chocolate - Bauduco Duo",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 30,
+			"qtd": 15
+		},
+		"valor": "7.97",
+		"pesquisas": [
+			{
+				"id": 28,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 7.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:533"
+			}
+		],
+		"$$hashKey": "object:71"
+	},
+	{
+		"id": 107,
+		"ic": "I",
+		"barra": "7891021015936",
+		"nome": "Café - Melita",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 4
+		},
+		"valor": "35.96",
+		"pesquisas": [
+			{
+				"id": 107,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 35.96,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:535"
+			},
+			{
+				"id": 160,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 38.32,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:536"
+			}
+		],
+		"$$hashKey": "object:72"
+	},
+	{
+		"id": 97,
+		"ic": "I",
+		"barra": "200271002097",
+		"nome": "Cenoura",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 922,
+			"qtd": 1
+		},
+		"valor": "2.09",
+		"pesquisas": [
+			{
+				"id": 97,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 2.09,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:539"
+			}
+		],
+		"$$hashKey": "object:73"
+	},
+	{
+		"id": 89,
+		"ic": "I",
+		"barra": "7894650000359",
+		"nome": "Cera Líquida - Mr Muscula",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 750,
+			"qtd": 1
+		},
+		"valor": "8.33",
+		"pesquisas": [
+			{
+				"id": 89,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 3,
+				"valor": 8.33,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:541"
+			}
+		],
+		"$$hashKey": "object:74"
+	},
+	{
+		"id": 114,
+		"ic": "I",
+		"barra": "7897395011079",
+		"nome": "Cerveja - Miller",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 355,
+			"qtd": 6
+		},
+		"valor": "16.74",
+		"pesquisas": [
+			{
+				"id": 114,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 16.74,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:543"
+			}
+		],
+		"$$hashKey": "object:75"
+	},
+	{
+		"id": 31,
+		"ic": "I",
+		"barra": "78934115",
+		"nome": "Cerveja - Sol",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 330,
+			"qtd": 1
+		},
+		"valor": "3.19",
+		"pesquisas": [
+			{
+				"id": 31,
+				"ic": "I",
+				"data": 20160805,
+				"qtdComprado": 6,
+				"valor": 3.19,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:545"
+			},
+			{
+				"id": 135,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 17.34,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:546"
+			},
+			{
+				"id": 158,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 17.34,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:547"
+			}
+		],
+		"$$hashKey": "object:76"
+	},
+	{
+		"id": 55,
+		"ic": "I",
+		"barra": "78936386",
+		"nome": "Cerveja - Sol",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 600,
+			"qtd": 1
+		},
+		"valor": "4.98",
+		"pesquisas": [
+			{
+				"id": 55,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 2,
+				"valor": 4.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:551"
+			}
+		],
+		"$$hashKey": "object:77"
+	},
+	{
+		"id": 135,
+		"ic": "I",
+		"barra": "78934115",
+		"nome": "Cerveja - Sol",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 330,
+			"qtd": 6
+		},
+		"valor": "17.34",
+		"pesquisas": [
+			{
+				"id": 135,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 17.34,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:553"
+			},
+			{
+				"id": 158,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 17.34,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:554"
+			}
+		],
+		"$$hashKey": "object:78"
+	},
+	{
+		"id": 66,
+		"ic": "I",
+		"barra": "7896007899463",
+		"nome": "Champignon",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 100,
+			"qtd": 3
+		},
+		"valor": "13.97",
+		"pesquisas": [
+			{
+				"id": 66,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 13.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:557"
+			}
+		],
+		"$$hashKey": "object:79"
+	},
+	{
+		"id": 166,
+		"ic": "I",
+		"barra": "7895144080024",
+		"nome": "Chiclete - Mentos Purê Fresh",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 10,
+			"qtd": 12
+		},
+		"valor": "10.98",
+		"pesquisas": [
+			{
+				"id": 166,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 0,
+				"valor": 10.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:559"
+			},
+			{
+				"id": 112,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 9.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:560"
+			}
+		],
+		"$$hashKey": "object:80"
+	},
+	{
+		"id": 79,
+		"ic": "I",
+		"barra": "7894900011517",
+		"nome": "Coca Cola",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 2,
+			"qtd": 1
+		},
+		"valor": "6.69",
+		"pesquisas": [
+			{
+				"id": 79,
+				"ic": "I",
+				"data": 20160902,
+				"qtdComprado": 1,
+				"valor": 6.69,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:563"
+			}
+		],
+		"$$hashKey": "object:81"
+	},
+	{
+		"id": 151,
+		"ic": "I",
+		"barra": "7622300801779",
+		"nome": "Crema Cheese - Philadelphia",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 300,
+			"qtd": 1
+		},
+		"valor": "6.45",
+		"pesquisas": [
+			{
+				"id": 151,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 6.45,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:565"
+			}
+		],
+		"$$hashKey": "object:82"
+	},
+	{
+		"id": 152,
+		"ic": "I",
+		"barra": "7896051114086",
+		"nome": "Creme de Leite - Itambé",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 300,
+			"qtd": 1
+		},
+		"valor": "3.39",
+		"pesquisas": [
+			{
+				"id": 152,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 3.39,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:567"
+			}
+		],
+		"$$hashKey": "object:83"
+	},
+	{
+		"id": 45,
+		"ic": "I",
+		"barra": "7891025700609",
+		"nome": "Danone -",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 540,
+			"qtd": 1
+		},
+		"valor": "5.2",
+		"pesquisas": [
+			{
+				"id": 45,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 5.2,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:569"
+			}
+		],
+		"$$hashKey": "object:84"
+	},
+	{
+		"id": 134,
+		"ic": "I",
+		"barra": "7891025107378",
+		"nome": "Danone Grego",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 400,
+			"qtd": 1
+		},
+		"valor": "2.99",
+		"pesquisas": [
+			{
+				"id": 134,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 2.99,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:571"
+			}
+		],
+		"$$hashKey": "object:85"
+	},
+	{
+		"id": 141,
+		"ic": "I",
+		"barra": "7897000800432",
+		"nome": "Desinfetante - Lysoform",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 5,
+			"qtd": 1
+		},
+		"valor": "30.98",
+		"pesquisas": [
+			{
+				"id": 141,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 30.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:573"
+			}
+		],
+		"$$hashKey": "object:86"
+	},
+	{
+		"id": 9,
+		"ic": "I",
+		"barra": "7791969016029",
+		"nome": "Desodorante - Nívea Men",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 150,
+			"qtd": 2
+		},
+		"valor": "22.97",
+		"pesquisas": [
+			{
+				"id": 9,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 22.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:575"
+			},
+			{
+				"id": 138,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 22.87,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:576"
+			},
+			{
+				"id": 116,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 24.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:577"
+			}
+		],
+		"$$hashKey": "object:87"
+	},
+	{
+		"id": 10,
+		"ic": "I",
+		"barra": "7791969016036",
+		"nome": "Desodorante -Nívea dry",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 150,
+			"qtd": 2
+		},
+		"valor": "22.97",
+		"pesquisas": [
+			{
+				"id": 10,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 22.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:581"
+			}
+		],
+		"$$hashKey": "object:88"
+	},
+	{
+		"id": 138,
+		"ic": "I",
+		"barra": "7791969016029",
+		"nome": "Desodorante Nivea Men",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 150,
+			"qtd": 2
+		},
+		"valor": "22.87",
+		"pesquisas": [
+			{
+				"id": 138,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 22.87,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:583"
+			},
+			{
+				"id": 116,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 24.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:584"
+			}
+		],
+		"$$hashKey": "object:89"
+	},
+	{
+		"id": 37,
+		"ic": "I",
+		"barra": "7894650012314",
+		"nome": "Desodorante de Ambiente",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 432,
+			"qtd": 1
+		},
+		"valor": "6.99",
+		"pesquisas": [
+			{
+				"id": 37,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 6.99,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:587"
+			}
+		],
+		"$$hashKey": "object:90"
+	},
+	{
+		"id": 36,
+		"ic": "I",
+		"barra": "7894650003176",
+		"nome": "Desodorante de ambiente",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 175,
+			"qtd": 1
+		},
+		"valor": "19.97",
+		"pesquisas": [
+			{
+				"id": 36,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 0,
+				"valor": 19.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:589"
+			}
+		],
+		"$$hashKey": "object:91"
+	},
+	{
+		"id": 62,
+		"ic": "I",
+		"barra": "7892840224844",
+		"nome": "Doritos",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 400,
+			"qtd": 1
+		},
+		"valor": "13.48",
+		"pesquisas": [
+			{
+				"id": 62,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 13.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:591"
+			},
+			{
+				"id": 32,
+				"ic": "I",
+				"data": 20160805,
+				"qtdComprado": 1,
+				"valor": 15.69,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:592"
+			},
+			{
+				"id": 78,
+				"ic": "I",
+				"data": 20160902,
+				"qtdComprado": 1,
+				"valor": 14.99,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:593"
+			}
+		],
+		"$$hashKey": "object:92"
+	},
+	{
+		"id": 12,
+		"ic": "I",
+		"barra": "7891010953553",
+		"nome": "Enxaguante Bucal - Listerine",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1.5,
+			"qtd": 1
+		},
+		"valor": "38.97",
+		"pesquisas": [
+			{
+				"id": 12,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 38.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:597"
+			}
+		],
+		"$$hashKey": "object:93"
+	},
+	{
+		"id": 154,
+		"ic": "I",
+		"barra": "7896005212905",
+		"nome": "Farinha de Trigo - Dona Benta",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "3.78",
+		"pesquisas": [
+			{
+				"id": 154,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 3.78,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:599"
+			},
+			{
+				"id": 21,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 3.78,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:600"
+			}
+		],
+		"$$hashKey": "object:94"
+	},
+	{
+		"id": 72,
+		"ic": "I",
+		"barra": "7896046400378",
+		"nome": "Feijão Branco - Rolalito",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "4.79",
+		"pesquisas": [
+			{
+				"id": 72,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 4.79,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:603"
+			},
+			{
+				"id": 23,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 4.99,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:604"
+			}
+		],
+		"$$hashKey": "object:95"
+	},
+	{
+		"id": 153,
+		"ic": "I",
+		"barra": "7622300119652",
+		"nome": "Fermento Em Po - Royal",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 250,
+			"qtd": 1
+		},
+		"valor": "4.7",
+		"pesquisas": [
+			{
+				"id": 153,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 4.7,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:607"
+			}
+		],
+		"$$hashKey": "object:96"
+	},
+	{
+		"id": 44,
+		"ic": "I",
+		"barra": "7891021001885",
+		"nome": "Filtro de Café - Melita 102",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 30,
+			"qtd": 6
+		},
+		"valor": "16.97",
+		"pesquisas": [
+			{
+				"id": 44,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 16.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:609"
+			},
+			{
+				"id": 30,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 4.99,
+				"loja": {
+					"id": 2,
+					"nome": "Carrefour - Shopping Eldorado "
+				},
+				"$$hashKey": "object:610"
+			}
+		],
+		"$$hashKey": "object:97"
+	},
+	{
+		"id": 52,
+		"ic": "I",
+		"barra": "400006523396",
+		"nome": "Filé de Frango - Sadia",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "7.97",
+		"pesquisas": [
+			{
+				"id": 52,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 7.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:613"
+			}
+		],
+		"$$hashKey": "object:98"
+	},
+	{
+		"id": 124,
+		"ic": "I",
+		"barra": "7893000005945",
+		"nome": "Filé de Peito de Frango - Sadia",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "7.97",
+		"pesquisas": [
+			{
+				"id": 124,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 7.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:615"
+			}
+		],
+		"$$hashKey": "object:99"
+	},
+	{
+		"id": 6,
+		"ic": "I",
+		"barra": "7506295362760",
+		"nome": "Frauda RN - pampers",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 40,
+			"qtd": 1
+		},
+		"valor": "22.98",
+		"pesquisas": [
+			{
+				"id": 6,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 22.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:617"
+			}
+		],
+		"$$hashKey": "object:100"
+	},
+	{
+		"id": 88,
+		"ic": "I",
+		"barra": "7894650000403",
+		"nome": "Inseticida - Raid",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 261,
+			"qtd": 1
+		},
+		"valor": "8.23",
+		"pesquisas": [
+			{
+				"id": 88,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 2,
+				"valor": 8.23,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:619"
+			}
+		],
+		"$$hashKey": "object:101"
+	},
+	{
+		"id": 34,
+		"ic": "I",
+		"barra": "7891515925321",
+		"nome": "Iogurte Integral com Mel - Batavo",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 170,
+			"qtd": 1
+		},
+		"valor": "1.05",
+		"pesquisas": [
+			{
+				"id": 34,
+				"ic": "I",
+				"data": 20160805,
+				"qtdComprado": 4,
+				"valor": 1.05,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:621"
+			}
+		],
+		"$$hashKey": "object:102"
+	},
+	{
+		"id": 35,
+		"ic": "I",
+		"barra": "7891097010781",
+		"nome": "Iogurte Integral de Morango - Batavo",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "4.69",
+		"pesquisas": [
+			{
+				"id": 35,
+				"ic": "I",
+				"data": 20160805,
+				"qtdComprado": 1,
+				"valor": 4.69,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:623"
+			}
+		],
+		"$$hashKey": "object:103"
+	},
+	{
+		"id": 20,
+		"ic": "I",
+		"barra": "7891150042056",
+		"nome": "Ketchup - Hellmans",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 380,
+			"qtd": 2
+		},
+		"valor": "7.97",
+		"pesquisas": [
+			{
+				"id": 20,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 7.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:625"
+			}
+		],
+		"$$hashKey": "object:104"
+	},
+	{
+		"id": 167,
+		"ic": "I",
+		"barra": "8410076471710",
+		"nome": "Kit para Burrito",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 510,
+			"qtd": 1
+		},
+		"valor": "15.98",
+		"pesquisas": [
+			{
+				"id": 167,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 2,
+				"valor": 15.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:627"
+			}
+		],
+		"$$hashKey": "object:105"
+	},
+	{
+		"id": 67,
+		"ic": "I",
+		"barra": "8410076481306",
+		"nome": "Kit para Tacos",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 308,
+			"qtd": 1
+		},
+		"valor": "22.97",
+		"pesquisas": [
+			{
+				"id": 67,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 22.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:629"
+			}
+		],
+		"$$hashKey": "object:106"
+	},
+	{
+		"id": 104,
+		"ic": "I",
+		"barra": "400003667581",
+		"nome": "Leite Integral - Italac",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 12
+		},
+		"valor": "28.68",
+		"pesquisas": [
+			{
+				"id": 104,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 28.68,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:631"
+			}
+		],
+		"$$hashKey": "object:107"
+	},
+	{
+		"id": 136,
+		"ic": "I",
+		"barra": "7898080640017",
+		"nome": "Leite Integral - Italac",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 12
+		},
+		"valor": "21.48",
+		"pesquisas": [
+			{
+				"id": 136,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 21.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:633"
+			}
+		],
+		"$$hashKey": "object:108"
+	},
+	{
+		"id": 156,
+		"ic": "I",
+		"barra": "0400003667581",
+		"nome": "Leite Integral - Italac",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 12
+		},
+		"valor": "27.48",
+		"pesquisas": [
+			{
+				"id": 156,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 27.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:635"
+			}
+		],
+		"$$hashKey": "object:109"
+	},
+	{
+		"id": 61,
+		"ic": "I",
+		"barra": "400003028078",
+		"nome": "Leite Integral - Tirol",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 12
+		},
+		"valor": "32.28",
+		"pesquisas": [
+			{
+				"id": 61,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 32.28,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:637"
+			}
+		],
+		"$$hashKey": "object:110"
+	},
+	{
+		"id": 130,
+		"ic": "I",
+		"barra": "400003667727",
+		"nome": "Leite Semi Desnatado - Italac",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 12
+		},
+		"valor": "27.48",
+		"pesquisas": [
+			{
+				"id": 130,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 27.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:639"
+			}
+		],
+		"$$hashKey": "object:111"
+	},
+	{
+		"id": 22,
+		"ic": "I",
+		"barra": "7898080640185",
+		"nome": "Leite Semi-Desnatado - Italac",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "3.49",
+		"pesquisas": [
+			{
+				"id": 22,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 12,
+				"valor": 3.49,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:641"
+			}
+		],
+		"$$hashKey": "object:112"
+	},
+	{
+		"id": 7,
+		"ic": "I",
+		"barra": "7891172432477",
+		"nome": "Lenço Umidecido -Neve Supreme",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 48,
+			"qtd": 1
+		},
+		"valor": "15.16",
+		"pesquisas": [
+			{
+				"id": 7,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 15.16,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:643"
+			}
+		],
+		"$$hashKey": "object:113"
+	},
+	{
+		"id": 145,
+		"ic": "I",
+		"barra": "7896061953194",
+		"nome": "Lenço de papel - Softys",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 50,
+			"qtd": 5
+		},
+		"valor": "12.98",
+		"pesquisas": [
+			{
+				"id": 145,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 12.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:645"
+			}
+		],
+		"$$hashKey": "object:114"
+	},
+	{
+		"id": 5,
+		"ic": "I",
+		"barra": "7891010568771",
+		"nome": "Lenço umedecido - jonsons baby",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 48,
+			"qtd": 3
+		},
+		"valor": "26.98",
+		"pesquisas": [
+			{
+				"id": 5,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 26.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:647"
+			}
+		],
+		"$$hashKey": "object:115"
+	},
+	{
+		"id": 54,
+		"ic": "I",
+		"barra": "400003073795",
+		"nome": "Linguiça Toscana - Seara",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 5,
+			"qtd": 1
+		},
+		"valor": "39.9",
+		"pesquisas": [
+			{
+				"id": 54,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 39.9,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:649"
+			}
+		],
+		"$$hashKey": "object:116"
+	},
+	{
+		"id": 149,
+		"ic": "I",
+		"barra": "7898959253034",
+		"nome": "Linguiça de Pernil - Bragança",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "16.37",
+		"pesquisas": [
+			{
+				"id": 149,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 16.37,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:651"
+			}
+		],
+		"$$hashKey": "object:117"
+	},
+	{
+		"id": 157,
+		"ic": "I",
+		"barra": "7898959253058",
+		"nome": "Linguiça de Pernil Provolone - Bragança",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "16.37",
+		"pesquisas": [
+			{
+				"id": 157,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 2,
+				"valor": 16.37,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:653"
+			}
+		],
+		"$$hashKey": "object:118"
+	},
+	{
+		"id": 101,
+		"ic": "I",
+		"barra": "7898959253041",
+		"nome": "Linguiça de pernil",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "17.17",
+		"pesquisas": [
+			{
+				"id": 101,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 17.17,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:655"
+			}
+		],
+		"$$hashKey": "object:119"
+	},
+	{
+		"id": 119,
+		"ic": "I",
+		"barra": "7896495000631",
+		"nome": "Líquido Secante - Samy",
+		"embalagem": {
+			"tipo": {
+				"id": 4,
+				"nome": "Mililitro",
+				"sigla": "ml",
+				"comparacao": 100
+			},
+			"volume": 100,
+			"qtd": 3
+		},
+		"valor": "24.98",
+		"pesquisas": [
+			{
+				"id": 119,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 24.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:657"
+			}
+		],
+		"$$hashKey": "object:120"
+	},
+	{
+		"id": 69,
+		"ic": "I",
+		"barra": "7896205788156",
+		"nome": "Macarrão Parafuso - Adria",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "2.47",
+		"pesquisas": [
+			{
+				"id": 69,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 3,
+				"valor": 2.47,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:659"
+			},
+			{
+				"id": 148,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 2,
+				"valor": 2.47,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:660"
+			}
+		],
+		"$$hashKey": "object:121"
+	},
+	{
+		"id": 46,
+		"ic": "I",
+		"barra": "7891080112836",
+		"nome": "Margarina - Delicia Supreme",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "3.89",
+		"pesquisas": [
+			{
+				"id": 46,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 3.89,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:663"
+			},
+			{
+				"id": 99,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 3.89,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:664"
+			}
+		],
+		"$$hashKey": "object:122"
+	},
+	{
+		"id": 15,
+		"ic": "I",
+		"barra": "7893000394209",
+		"nome": "Margarina - Qualy",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "3.9",
+		"pesquisas": [
+			{
+				"id": 15,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 3.9,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:667"
+			},
+			{
+				"id": 47,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 0,
+				"valor": 3.99,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:668"
+			}
+		],
+		"$$hashKey": "object:123"
+	},
+	{
+		"id": 49,
+		"ic": "I",
+		"barra": "7898901614159",
+		"nome": "Maça - Disney",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "7.97",
+		"pesquisas": [
+			{
+				"id": 49,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 7.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:671"
+			},
+			{
+				"id": 125,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 4.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:672"
+			},
+			{
+				"id": 98,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 8.47,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:673"
+			}
+		],
+		"$$hashKey": "object:124"
+	},
+	{
+		"id": 112,
+		"ic": "I",
+		"barra": "7895144080024",
+		"nome": "Mentos Pure Fresh",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 10,
+			"qtd": 12
+		},
+		"valor": "9.98",
+		"pesquisas": [
+			{
+				"id": 112,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 9.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:677"
+			}
+		],
+		"$$hashKey": "object:125"
+	},
+	{
+		"id": 111,
+		"ic": "I",
+		"barra": "78922310",
+		"nome": "Mentos Purê Fresh",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 56,
+			"qtd": 2
+		},
+		"valor": "9.98",
+		"pesquisas": [
+			{
+				"id": 111,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 0,
+				"valor": 9.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:679"
+			}
+		],
+		"$$hashKey": "object:126"
+	},
+	{
+		"id": 103,
+		"ic": "I",
+		"barra": "7896102581119",
+		"nome": "Milho Verde - Quero",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 200,
+			"qtd": 6
+		},
+		"valor": "7.99",
+		"pesquisas": [
+			{
+				"id": 103,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 7.99,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:681"
+			}
+		],
+		"$$hashKey": "object:127"
+	},
+	{
+		"id": 68,
+		"ic": "I",
+		"barra": "7896036095904",
+		"nome": "Molho de Tomate - Pomarola",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 340,
+			"qtd": 3
+		},
+		"valor": "3.76",
+		"pesquisas": [
+			{
+				"id": 68,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 3.76,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:683"
+			}
+		],
+		"$$hashKey": "object:128"
+	},
+	{
+		"id": 82,
+		"ic": "I",
+		"barra": "2025580012135",
+		"nome": "Mussarela",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 358,
+			"qtd": 1
+		},
+		"valor": "12.13",
+		"pesquisas": [
+			{
+				"id": 82,
+				"ic": "I",
+				"data": 20160902,
+				"qtdComprado": 1,
+				"valor": 12.13,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:685"
+			}
+		],
+		"$$hashKey": "object:129"
+	},
+	{
+		"id": 17,
+		"ic": "I",
+		"barra": "7891737206338",
+		"nome": "Ovo",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 20,
+			"qtd": 1
+		},
+		"valor": "11.97",
+		"pesquisas": [
+			{
+				"id": 17,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 11.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:687"
+			},
+			{
+				"id": 58,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 8.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:688"
+			},
+			{
+				"id": 159,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 8.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:689"
+			}
+		],
+		"$$hashKey": "object:130"
+	},
+	{
+		"id": 84,
+		"ic": "I",
+		"barra": "7891103053719",
+		"nome": "Panetone - Carrefour",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "5.68",
+		"pesquisas": [
+			{
+				"id": 84,
+				"ic": "I",
+				"data": 20160902,
+				"qtdComprado": 1,
+				"valor": 5.68,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:693"
+			}
+		],
+		"$$hashKey": "object:131"
+	},
+	{
+		"id": 122,
+		"ic": "I",
+		"barra": "7896082824633",
+		"nome": "Papel Antiaderente de Cozinha",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 3
+		},
+		"valor": "18.98",
+		"pesquisas": [
+			{
+				"id": 122,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 18.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:695"
+			}
+		],
+		"$$hashKey": "object:132"
+	},
+	{
+		"id": 43,
+		"ic": "I",
+		"barra": "7898327431279",
+		"nome": "Papel Higiênico - Dualette",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 12,
+			"qtd": 3
+		},
+		"valor": "36.97",
+		"pesquisas": [
+			{
+				"id": 43,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 36.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:697"
+			}
+		],
+		"$$hashKey": "object:133"
+	},
+	{
+		"id": 42,
+		"ic": "I",
+		"barra": "7891172433047",
+		"nome": "Papel Higiênico - Neve",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 40,
+			"qtd": 1
+		},
+		"valor": "42.9",
+		"pesquisas": [
+			{
+				"id": 42,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 0,
+				"valor": 42.9,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:699"
+			}
+		],
+		"$$hashKey": "object:134"
+	},
+	{
+		"id": 144,
+		"ic": "I",
+		"barra": "7896110008776",
+		"nome": "Papel Higiênico - Personal",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 24,
+			"qtd": 1
+		},
+		"valor": "21.36",
+		"pesquisas": [
+			{
+				"id": 144,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 21.36,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:701"
+			}
+		],
+		"$$hashKey": "object:135"
+	},
+	{
+		"id": 13,
+		"ic": "I",
+		"barra": "7896075300410",
+		"nome": "Papel Toalha - Mascot",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 2,
+			"qtd": 4
+		},
+		"valor": "18.1",
+		"pesquisas": [
+			{
+				"id": 13,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 18.1,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:703"
+			}
+		],
+		"$$hashKey": "object:136"
+	},
+	{
+		"id": 139,
+		"ic": "I",
+		"barra": "7506309834146",
+		"nome": "Pasta de Dente + Escova",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 100,
+			"qtd": 1
+		},
+		"valor": "16.97",
+		"pesquisas": [
+			{
+				"id": 139,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 16.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:705"
+			}
+		],
+		"$$hashKey": "object:137"
+	},
+	{
+		"id": 38,
+		"ic": "I",
+		"barra": "7894650012567",
+		"nome": "Pedra Sanitária - Mr Músculo",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 10,
+			"qtd": 1
+		},
+		"valor": "14.98",
+		"pesquisas": [
+			{
+				"id": 38,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 14.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:707"
+			}
+		],
+		"$$hashKey": "object:138"
+	},
+	{
+		"id": 128,
+		"ic": "I",
+		"barra": "7896102502954",
+		"nome": "Polpa de Tomate - Quero",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 1050,
+			"qtd": 1
+		},
+		"valor": "3.34",
+		"pesquisas": [
+			{
+				"id": 128,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 2,
+				"valor": 3.34,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:709"
+			}
+		],
+		"$$hashKey": "object:139"
+	},
+	{
+		"id": 80,
+		"ic": "I",
+		"barra": "2046190003047",
+		"nome": "Presunto Ceara",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 156,
+			"qtd": 1
+		},
+		"valor": "3.04",
+		"pesquisas": [
+			{
+				"id": 80,
+				"ic": "I",
+				"data": 20160902,
+				"qtdComprado": 1,
+				"valor": 3.04,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:711"
+			}
+		],
+		"$$hashKey": "object:140"
+	},
+	{
+		"id": 81,
+		"ic": "I",
+		"barra": "2046190003511",
+		"nome": "Presunto Ceara",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 180,
+			"qtd": 1
+		},
+		"valor": "3.51",
+		"pesquisas": [
+			{
+				"id": 81,
+				"ic": "I",
+				"data": 20160902,
+				"qtdComprado": 1,
+				"valor": 3.51,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:713"
+			}
+		],
+		"$$hashKey": "object:141"
+	},
+	{
+		"id": 118,
+		"ic": "I",
+		"barra": "7896007546039",
+		"nome": "Protetor Diário - Intimus",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 80,
+			"qtd": 1
+		},
+		"valor": "12.9",
+		"pesquisas": [
+			{
+				"id": 118,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 12.9,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:715"
+			}
+		],
+		"$$hashKey": "object:142"
+	},
+	{
+		"id": 92,
+		"ic": "I",
+		"barra": "7896002302142",
+		"nome": "Pão de Coco - Pullman",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "6.59",
+		"pesquisas": [
+			{
+				"id": 92,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 6.59,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:717"
+			}
+		],
+		"$$hashKey": "object:143"
+	},
+	{
+		"id": 50,
+		"ic": "I",
+		"barra": "7896066317595",
+		"nome": "Pão de Forma - Wickbold",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "4.28",
+		"pesquisas": [
+			{
+				"id": 50,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 2,
+				"valor": 4.28,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:719"
+			},
+			{
+				"id": 93,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 4.22,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:720"
+			},
+			{
+				"id": 123,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 4.17,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:721"
+			}
+		],
+		"$$hashKey": "object:144"
+	},
+	{
+		"id": 94,
+		"ic": "I",
+		"barra": "207289002941",
+		"nome": "Pão de ciabata",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 196,
+			"qtd": 1
+		},
+		"valor": "2.94",
+		"pesquisas": [
+			{
+				"id": 94,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 2.94,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:725"
+			}
+		],
+		"$$hashKey": "object:145"
+	},
+	{
+		"id": 150,
+		"ic": "I",
+		"barra": "7896074600016",
+		"nome": "Pão de queijo -  Forno de Minas",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "15.96",
+		"pesquisas": [
+			{
+				"id": 150,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 15.96,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:727"
+			}
+		],
+		"$$hashKey": "object:146"
+	},
+	{
+		"id": 127,
+		"ic": "I",
+		"barra": "7898374140049",
+		"nome": "Pão de queijo - Bechers Chefs",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "13.85",
+		"pesquisas": [
+			{
+				"id": 127,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 13.85,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:729"
+			}
+		],
+		"$$hashKey": "object:147"
+	},
+	{
+		"id": 95,
+		"ic": "I",
+		"barra": "7891737766979",
+		"nome": "Requeijão - Mmarks",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "7.97",
+		"pesquisas": [
+			{
+				"id": 95,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 7.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:731"
+			},
+			{
+				"id": 16,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 7.37,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:732"
+			}
+		],
+		"$$hashKey": "object:148"
+	},
+	{
+		"id": 48,
+		"ic": "I",
+		"barra": "7896353300897",
+		"nome": "Requeijão Cremoso - Catupiry",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "10.6",
+		"pesquisas": [
+			{
+				"id": 48,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 0,
+				"valor": 10.6,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:735"
+			}
+		],
+		"$$hashKey": "object:149"
+	},
+	{
+		"id": 16,
+		"ic": "I",
+		"barra": "7891737766979",
+		"nome": "Requeijão Cremoso - Mmarks",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "7.37",
+		"pesquisas": [
+			{
+				"id": 16,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 7.37,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:737"
+			}
+		],
+		"$$hashKey": "object:150"
+	},
+	{
+		"id": 85,
+		"ic": "I",
+		"barra": "7896071004862",
+		"nome": "Rosquinha - Mabel",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 400,
+			"qtd": 1
+		},
+		"valor": "4.19",
+		"pesquisas": [
+			{
+				"id": 85,
+				"ic": "I",
+				"data": 20160914,
+				"qtdComprado": 1,
+				"valor": 4.19,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:739"
+			}
+		],
+		"$$hashKey": "object:151"
+	},
+	{
+		"id": 161,
+		"ic": "I",
+		"barra": "7896003703665",
+		"nome": "Rosquinha de Coco - Marilan",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 800,
+			"qtd": 1
+		},
+		"valor": "6.48",
+		"pesquisas": [
+			{
+				"id": 161,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 6.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:741"
+			},
+			{
+				"id": 131,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 6.48,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:742"
+			}
+		],
+		"$$hashKey": "object:152"
+	},
+	{
+		"id": 115,
+		"ic": "I",
+		"barra": "7891010610302",
+		"nome": "Sabonete dê Mel e Linhaca - Jonsons",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 90,
+			"qtd": 12
+		},
+		"valor": "12.67",
+		"pesquisas": [
+			{
+				"id": 115,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 12.67,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:745"
+			}
+		],
+		"$$hashKey": "object:153"
+	},
+	{
+		"id": 90,
+		"ic": "I",
+		"barra": "7891737993894",
+		"nome": "Sabão Líquido - Member Mark",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 5,
+			"qtd": 1
+		},
+		"valor": "24.95",
+		"pesquisas": [
+			{
+				"id": 90,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 24.95,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:747"
+			},
+			{
+				"id": 8,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 24.95,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:748"
+			}
+		],
+		"$$hashKey": "object:154"
+	},
+	{
+		"id": 1,
+		"ic": "I",
+		"barra": "7891150008519",
+		"nome": "Sabão em pó OMO",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 5,
+			"qtd": 1
+		},
+		"valor": "27.98",
+		"pesquisas": [
+			{
+				"id": 1,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 27.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:751"
+			}
+		],
+		"$$hashKey": "object:155"
+	},
+	{
+		"id": 39,
+		"ic": "I",
+		"barra": "7896082806288",
+		"nome": "Saco de Lixo - Dover Roll",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 100,
+			"qtd": 25
+		},
+		"valor": "34.87",
+		"pesquisas": [
+			{
+				"id": 39,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 34.87,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:753"
+			},
+			{
+				"id": 142,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 0,
+				"valor": 34.87,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:754"
+			}
+		],
+		"$$hashKey": "object:156"
+	},
+	{
+		"id": 143,
+		"ic": "I",
+		"barra": "7891737430603",
+		"nome": "Saco de Lixo - Mmarks",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 50,
+			"qtd": 1
+		},
+		"valor": "56.87",
+		"pesquisas": [
+			{
+				"id": 143,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 56.87,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:757"
+			}
+		],
+		"$$hashKey": "object:157"
+	},
+	{
+		"id": 32,
+		"ic": "I",
+		"barra": "7892840224844",
+		"nome": "Salgadinho - Doritos",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 400,
+			"qtd": 1
+		},
+		"valor": "15.69",
+		"pesquisas": [
+			{
+				"id": 32,
+				"ic": "I",
+				"data": 20160805,
+				"qtdComprado": 1,
+				"valor": 15.69,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:759"
+			},
+			{
+				"id": 78,
+				"ic": "I",
+				"data": 20160902,
+				"qtdComprado": 1,
+				"valor": 14.99,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:760"
+			}
+		],
+		"$$hashKey": "object:158"
+	},
+	{
+		"id": 100,
+		"ic": "I",
+		"barra": "7893000135529",
+		"nome": "Salsicha - Sadia Hot Dog",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 500,
+			"qtd": 1
+		},
+		"valor": "7.1",
+		"pesquisas": [
+			{
+				"id": 100,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 7.1,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:763"
+			}
+		],
+		"$$hashKey": "object:159"
+	},
+	{
+		"id": 117,
+		"ic": "I",
+		"barra": "7891150026643",
+		"nome": "Shampoo - Tresemme",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "17.86",
+		"pesquisas": [
+			{
+				"id": 117,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 17.86,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:765"
+			}
+		],
+		"$$hashKey": "object:160"
+	},
+	{
+		"id": 91,
+		"ic": "I",
+		"barra": "7894904766833",
+		"nome": "Sobrecoxa - Seara",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "6.57",
+		"pesquisas": [
+			{
+				"id": 91,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 10,
+				"valor": 6.57,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:767"
+			}
+		],
+		"$$hashKey": "object:161"
+	},
+	{
+		"id": 51,
+		"ic": "I",
+		"barra": "7893000005976",
+		"nome": "Sobrecoxa de Frango - Sadia",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "7.67",
+		"pesquisas": [
+			{
+				"id": 51,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 7.67,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:769"
+			}
+		],
+		"$$hashKey": "object:162"
+	},
+	{
+		"id": 147,
+		"ic": "I",
+		"barra": "7898553447754",
+		"nome": "Suco Maracujá - Natural One",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 4,
+			"qtd": 1
+		},
+		"valor": "12.97",
+		"pesquisas": [
+			{
+				"id": 147,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 12.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:771"
+			}
+		],
+		"$$hashKey": "object:163"
+	},
+	{
+		"id": 19,
+		"ic": "I",
+		"barra": "7896000594679",
+		"nome": "Suco de Maracujá - Maguary",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "12.98",
+		"pesquisas": [
+			{
+				"id": 19,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 12.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:773"
+			},
+			{
+				"id": 60,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 12.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:774"
+			}
+		],
+		"$$hashKey": "object:164"
+	},
+	{
+		"id": 133,
+		"ic": "I",
+		"barra": "7898553442612",
+		"nome": "Suco de Maçã - Natural One",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 4,
+			"qtd": 1
+		},
+		"valor": "15.97",
+		"pesquisas": [
+			{
+				"id": 133,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 15.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:777"
+			}
+		],
+		"$$hashKey": "object:165"
+	},
+	{
+		"id": 18,
+		"ic": "I",
+		"barra": "7896000594693",
+		"nome": "Suco de Uva - Maguary",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "8.98",
+		"pesquisas": [
+			{
+				"id": 18,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 2,
+				"valor": 8.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:779"
+			},
+			{
+				"id": 59,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 2,
+				"valor": 8.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:780"
+			},
+			{
+				"id": 102,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 2,
+				"valor": 10.58,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:781"
+			},
+			{
+				"id": 129,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 2,
+				"valor": 10.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:782"
+			}
+		],
+		"$$hashKey": "object:166"
+	},
+	{
+		"id": 137,
+		"ic": "I",
+		"barra": "9788584040261",
+		"nome": "Teste 01",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 1
+		},
+		"valor": "1.05",
+		"pesquisas": [
+			{
+				"id": 137,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 10,
+				"valor": 1.05,
+				"loja": {
+					"id": 2,
+					"nome": "Carrefour - Shopping Eldorado "
+				},
+				"$$hashKey": "object:787"
+			},
+			{
+				"id": 168,
+				"ic": "I",
+				"data": 20161120,
+				"qtdComprado": 0,
+				"valor": 12.9,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:788"
+			},
+			{
+				"id": 169,
+				"ic": "I",
+				"data": 20161120,
+				"qtdComprado": 0,
+				"valor": 12.98,
+				"loja": {
+					"id": 3,
+					"nome": "Carrefour - Marginal"
+				},
+				"$$hashKey": "object:789"
+			}
+		],
+		"$$hashKey": "object:167"
+	},
+	{
+		"id": 3,
+		"ic": "I",
+		"barra": "7891737993887",
+		"nome": "Tira manchas Mmarks",
+		"embalagem": {
+			"tipo": {
+				"id": 1,
+				"nome": "Kilo",
+				"sigla": "Kl",
+				"comparacao": 1
+			},
+			"volume": 2.5,
+			"qtd": 1
+		},
+		"valor": "39.97",
+		"pesquisas": [
+			{
+				"id": 3,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 39.97,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:793"
+			}
+		],
+		"$$hashKey": "object:168"
+	},
+	{
+		"id": 121,
+		"ic": "I",
+		"barra": "7702425534421",
+		"nome": "Toalha de  Papel - reutilizável",
+		"embalagem": {
+			"tipo": {
+				"id": 6,
+				"nome": "Unidade",
+				"sigla": "",
+				"comparacao": 1
+			},
+			"volume": 1,
+			"qtd": 3
+		},
+		"valor": "28.56",
+		"pesquisas": [
+			{
+				"id": 121,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 28.56,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:795"
+			}
+		],
+		"$$hashKey": "object:169"
+	},
+	{
+		"id": 65,
+		"ic": "I",
+		"barra": "7896002365420",
+		"nome": "Tortilha Integral - Rap10",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 330,
+			"qtd": 1
+		},
+		"valor": "5.66",
+		"pesquisas": [
+			{
+				"id": 65,
+				"ic": "I",
+				"data": 20160828,
+				"qtdComprado": 1,
+				"valor": 5.66,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:797"
+			}
+		],
+		"$$hashKey": "object:170"
+	},
+	{
+		"id": 120,
+		"ic": "I",
+		"barra": "7891035040429",
+		"nome": "Vanish",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 3,
+			"qtd": 1
+		},
+		"valor": "26.34",
+		"pesquisas": [
+			{
+				"id": 120,
+				"ic": "I",
+				"data": 20161022,
+				"qtdComprado": 1,
+				"valor": 26.34,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:799"
+			}
+		],
+		"$$hashKey": "object:171"
+	},
+	{
+		"id": 4,
+		"ic": "I",
+		"barra": "",
+		"nome": "Vanish Branco",
+		"embalagem": {
+			"tipo": {
+				"id": 3,
+				"nome": "Litro",
+				"sigla": "Lt",
+				"comparacao": 1
+			},
+			"volume": 3,
+			"qtd": 1
+		},
+		"valor": "24.98",
+		"pesquisas": [
+			{
+				"id": 4,
+				"ic": "I",
+				"data": 20160730,
+				"qtdComprado": 1,
+				"valor": 24.98,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:801"
+			}
+		],
+		"$$hashKey": "object:172"
+	},
+	{
+		"id": 96,
+		"ic": "I",
+		"barra": "200260004644",
+		"nome": "Vargen",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 358,
+			"qtd": 1
+		},
+		"valor": "4.64",
+		"pesquisas": [
+			{
+				"id": 96,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 4.64,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:803"
+			}
+		],
+		"$$hashKey": "object:173"
+	},
+	{
+		"id": 108,
+		"ic": "I",
+		"barra": "7891962044835",
+		"nome": "Wafer",
+		"embalagem": {
+			"tipo": {
+				"id": 2,
+				"nome": "Gramas",
+				"sigla": "g",
+				"comparacao": 100
+			},
+			"volume": 140,
+			"qtd": 3
+		},
+		"valor": "4.88",
+		"pesquisas": [
+			{
+				"id": 108,
+				"ic": "I",
+				"data": 20160925,
+				"qtdComprado": 1,
+				"valor": 4.88,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:805"
+			},
+			{
+				"id": 163,
+				"ic": "I",
+				"data": 20161119,
+				"qtdComprado": 1,
+				"valor": 4.58,
+				"loja": {
+					"id": 1,
+					"nome": "Sans Club - Santo Amaro"
+				},
+				"$$hashKey": "object:806"
+			}
+		],
+		"$$hashKey": "object:174"
+	}
+]
